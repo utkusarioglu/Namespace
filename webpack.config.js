@@ -3,7 +3,7 @@ var webpack = require("webpack");
 
 module.exports = {
     entry: {
-        'index': './src/m_namespace.ts'
+        'index': './src/namespace.ts'
     },
     mode: "production",
     output: {

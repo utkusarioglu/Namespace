@@ -10,11 +10,6 @@ import { t_namespace } from "./t_namespace";
 import { C_Namespace } from "./c_namespace";
 
 /**
- * Exposed types
- * */
-export type t_namespace = t_namespace;
-
-/**
  * Provides namespace functionality to classes
  *
  * @remarks

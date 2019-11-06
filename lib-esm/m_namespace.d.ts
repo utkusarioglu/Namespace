@@ -1,5 +1,4 @@
 import { t_namespace } from "./t_namespace";
-export declare type t_namespace = t_namespace;
 export declare abstract class M_Namespace {
     private _global_namespace;
     private _local_namespace;

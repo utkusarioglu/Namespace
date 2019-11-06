@@ -19,8 +19,8 @@
     "declarationMap": false /* Generates a sourcemap for each corresponding '.d.ts' file. */
   },
   "include": [
-    "src/m_namespace.ts",
-    "src/m_namespace.test.ts"
+    "src/namespace.ts",
+    "src/namespace.test.ts"
   ],
   "exclude": [
     "node_modules"

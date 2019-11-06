@@ -45,6 +45,9 @@
     <TypeScriptCompile Include="src\c_namespace.ts" />
     <TypeScriptCompile Include="src\m_namespace.test.ts" />
     <TypeScriptCompile Include="src\m_namespace.ts" />
+    <TypeScriptCompile Include="src\namespace.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\t_namespace.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />

@@ -2,7 +2,6 @@
 
 declare module '@utkusarioglu/m_namespace' {
     import { t_namespace } from "@utkusarioglu/m_namespace/t_namespace";
-    export type t_namespace = t_namespace;
     export abstract class M_Namespace {
         get_GlobalNamespace(): t_namespace;
         get_GlobalNamespaceStack(): t_namespace[];
