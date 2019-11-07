@@ -32,6 +32,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="jest.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -43,11 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\c_namespace.ts" />
-    <TypeScriptCompile Include="src\m_namespace.test.ts" />
-    <TypeScriptCompile Include="src\m_namespace.ts" />
-    <TypeScriptCompile Include="src\namespace.ts">
+    <TypeScriptCompile Include="src\index.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="src\m_namespace.test.ts" />
+    <TypeScriptCompile Include="src\m_namespace.ts" />
     <TypeScriptCompile Include="src\t_namespace.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
